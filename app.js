@@ -27,8 +27,8 @@ app.use("/static", express.static("public"))
 
 // route for HTTP GET requests to the root document
 app.get("/", (req, res) => {
-  res.send("Goodbye world!")
-})
+  res.send("Goodbye world!");
+});
 
 // route for HTTP GET requests to /html-example
 app.get("/html-example", (req, res) => {
